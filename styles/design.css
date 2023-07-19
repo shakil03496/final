@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: 'Work Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+.default-margin {
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+
+/* Default styles to share */
+.title-logo-text-size {
+  color: #0B0223;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.text-size-small {
+  color: #3C354F;
+  font-size: .8rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.text-size-medium {
+  color: #0B0223;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.text-size-large {
+  font-size: 4rem;
+  font-weight: 800;
+  margin: 0;
+}
+
+.text-style-linear-gradient {
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.special-color-text {
+  color: #FF42A5;
+}
+
+.primary-btn {
+  padding: 1rem 2.2rem;
+  border-radius: 3rem;
+  background: #FF42A5;
+  color: #FFF;
+  font-size: .8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/* Navbar style starts */
+.nav-gamer-logo {
+  width: 5rem;
+  height: 2.3rem;
+  object-fit: cover;
+}
+
+.navbar-container,
+.nav-logo-container,
+.ul-logo-container,
+nav ul,
+.nav-icons-container {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-container {
+  justify-content: space-between;
+}
+
+.nav-logo-container,
+.ul-logo-container,
+nav ul,
+.nav-icons-container {
+  gap: 1rem;
+}
+
+.nav-icons-container {
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.10);
+  padding: .5rem 1.1rem;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+header {
+  background: #FFF;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
