@@ -192,3 +192,335 @@ header {
     width: 23%;
     border-radius: 1rem;
   }
+
+  /* Play instantly section style starts */
+.play-instant-sec {
+    margin-top: 2rem;
+  }
+  
+  .play-instant-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .play-instant-img-container {
+    width: 70%;
+    text-align: right;
+    position: relative;
+  }
+  
+  .play-instant-img {
+    width: 75%;
+  }
+  
+  .play-instant-contents {
+    text-align: right;
+  }
+  
+  .play-instant-contents h2,
+  .play-instant-contents p {
+    padding-left: 45%;
+    margin-bottom: 1rem;
+  }
+  
+  .play-instant-absolute-img {
+    position: absolute;
+    bottom: -2rem;
+    width: 35%
+  }
+  
+  .play-instant-absolute-img img {
+    width: 100%;
+  }
+
+  /* Icons of Games section style starts */
+.icons-sec {
+    margin-top: 6rem;
+  }
+  
+  .icons-and-text {
+    display: flex;
+    align-items: center;
+    /* gap: .1rem; */
+    border-radius: 3rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
+  
+  .icons-container {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+  }
+  
+  .icons-and-text img {
+    width: 3rem;
+  }
+  
+  .icons-and-text:hover {
+    border: 2px solid #FF42A5;
+    color: #FF42A5;
+  }
+  /* Footer style starts */
+.footer-sec {
+    background: #0B0223;
+    ;
+    margin-top: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    color: white;
+  }
+  
+  .foot-items {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .white-text {
+    color: white;
+  }
+  
+  .footer-head-texts,
+  .logos-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
+  
+  .logos-container {
+    gap: 1rem;
+  }
+  
+  .logos-container img {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .foot-instruction {
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    gap: .5rem;
+  }
+  
+  footer small {
+    font-size: .7rem;
+  }
+
+
+
+
+/* Responsive style for mobile o small devices */
+@media screen and (max-width: 576px) {
+    .default-margin {
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  
+    /* Responsive navbar style for mobile */
+    .navbar-container,
+    nav ul,
+    .ul-logo-container {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    nav ul {
+      padding-left: 0;
+    }
+  
+    /* Responsive GOAT banner style starts for mobile */
+    .goat-banner-container {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  
+    .goat-banner-contents {
+      width: 100%;
+      padding-left: 18%;
+    }
+  
+    .goat-banner-img img {
+      width: 90%;
+      height: 90%;
+      object-fit: contain;
+    }
+  
+    .goat-banner-img {
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+  
+    
+  
+    /* Funny video section style starts for mobile */
+  
+    .funny-video-cards-container {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .funny-video-card {
+      width: 100%;
+    }
+  
+    /* Play instantly section responsive style starts for mobile */
+  
+    .play-instant-container {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .play-instant-img-container {
+      width: 100%;
+      text-align: right;
+    }
+  
+    .play-instant-img {
+      width: 75%;
+    }
+  
+    .play-instant-contents {
+      text-align: center;
+      width: 100%;
+    }
+  
+    .play-instant-contents h2,
+    .play-instant-contents p {
+      padding-left: 0;
+      margin-bottom: 1rem;
+    }
+  
+
+    /* Icons of Games section responsive style starts for mobile */
+  
+    .icons-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0;
+    }
+  
+    /* Footer Responsive style starts for mobile */
+  
+    .foot-items {
+      width: 100%;
+    }
+  
+    .footer-head-texts,
+    .logos-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+  
+    .foot-instruction {
+      display: grid;
+      grid-template-columns: repeat(2, max-content);
+    }
+  }
+  
+  /* Responsive style for tablet or medium devices */
+  @media screen and (min-width:576px) and (max-width: 960px) {
+    .default-margin {
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
+  
+    /* Responsive navbar style for tablet */
+    .navbar-container,
+    .ul-logo-container {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    nav ul {
+      padding-left: 0;
+    }
+  
+    /* Responsive GOAT banner style starts for tablet */
+    .goat-banner-container {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  
+    .goat-banner-contents {
+      width: 100%;
+      padding-left: 18%;
+    }
+  
+    .goat-banner-img img {
+      width: 90%;
+      height: 90%;
+      object-fit: contain;
+    }
+  
+    .goat-banner-img {
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+  
+  
+    /* Funny video section style starts for tablet */
+  
+    .funny-video-cards-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+      text-align: center;
+    }
+  
+    .funny-video-card {
+      width: 100%;
+    }
+  
+    /* Play instantly section responsive style starts for tablet */
+  
+    .play-instant-container {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .play-instant-img-container {
+      width: 100%;
+      text-align: right;
+    }
+  
+    .play-instant-img {
+      width: 75%;
+    }
+  
+    .play-instant-contents {
+      text-align: center;
+      width: 100%;
+    }
+  
+    .play-instant-contents h2,
+    .play-instant-contents p {
+      padding-left: 0;
+      margin-bottom: 1rem;
+    }
+  
+    
+    /* Icons of Games section responsive style starts for tablet*/
+  
+    .icons-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0;
+    }
+  
+    /* Footer Responsive style starts for tablet*/
+  
+    .foot-items {
+      width: 100%;
+    }
+  
+  }
+  
+
