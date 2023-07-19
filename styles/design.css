@@ -113,3 +113,82 @@ header {
   background: #FFF;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
+
+/* GOAT banner style starts */
+.goat-banner-sec {
+    background-image: url('images/goat-bg-img.png'), linear-gradient(90deg, rgba(231, 213, 222, 0.03), rgba(255, 66, 165, 0.03));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+  
+  .goat-banner-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .goat-banner-contents {
+    width: 50%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  .goat-banner-img-container img {
+    width: 100%;
+    height: 90%;
+    object-fit: contain;
+  }
+  
+  .goat-banner-img-container {
+    padding: .5rem 1px;
+  }
+  
+  .goat-icon-container {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    margin-bottom: .5rem;
+  }
+  
+  .goat-icon-container img {
+    width: 1rem;
+    height: 1rem;
+  }
+  
+  #blue-btn {
+    background: rgba(78, 197, 247, 1);
+    margin-top: 1rem;
+    margin-left: .1rem;
+  }
+  
+  .goat-banner-contents h2+h1 {
+    margin-bottom: 1rem;
+  }
+  /* Funny video section style starts */
+.funny-video-sec {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .funny-video-sec>h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .funny-video-sec>p {
+    margin-bottom: 2rem;
+  }
+  
+  .funny-video-cards-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+  }
+  
+  .funny-video-card img {
+    width: 100%;
+  }
+  
+  .funny-video-card {
+    width: 23%;
+    border-radius: 1rem;
+  }
